@@ -80,6 +80,7 @@ void Task0(void *pdata)				//任务0，打印CPU占用率
 	while (1)
 	{
 		OSPrintf("\nEnter Task0\n");
+		OSPrintf("\nTest by me for git\n");
 		OSPrintf("CPU Usage: %d%%\n",OSCPUUsage); //打印CPU占用率，调用系统变量实现
 
 		OSTimeDly(OS_TICKS_PER_SEC);
